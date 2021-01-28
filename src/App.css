@@ -1,0 +1,14 @@
+html,
+body {
+  background-color: #21232a;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.3rem;
+  padding: 70px;
+}
+
+input {
+  font-size: 1.3rem;
+  margin-right: 10px;
+  padding: 5px;
+}
