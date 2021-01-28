@@ -2,7 +2,7 @@
 
 Aplicación Para Convertir De Celsius a Radianes y Viceversa
 
- [App-converter](https://converter-react-academlo.netlify.app/).
+ Click aquí [App-converter](https://converter-react-academlo.netlify.app/) para ver el funcionamiento.
 
 ## Hook Utilizado
 
