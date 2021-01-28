@@ -4,8 +4,8 @@ import { Converter } from "./components/Converter";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <Converter />
       </header>
     </div>

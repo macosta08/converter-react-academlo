@@ -13,19 +13,17 @@ export const Converter = () => {
   };
 
   const hadleInputChangeCelsius = ({ target }) => {
-    const valueCelsius =
-      target.value === "" ? target.value : Number(target.value);
-    const valueRadians =
-      target.value === "" ? target.value : celsiusToRadians(valueCelsius);
+    const val = target.value;
+    const valueCelsius = val === "" ? val : Number(val);
+    const valueRadians = val === "" ? val : celsiusToRadians(valueCelsius);
     setCelsius(valueCelsius);
     setRadians(valueRadians);
   };
 
   const hadleInputChangeRadians = ({ target }) => {
-    const valueRadians =
-      target.value === "" ? target.value : Number(target.value);
-    const valueCelsius =
-      target.value === "" ? target.value : radiansToCelsius(valueRadians);
+    const val = target.value;
+    const valueRadians = val === "" ? val : Number(val);
+    const valueCelsius = val === "" ? val : radiansToCelsius(valueRadians);
     setRadians(valueRadians);
     setCelsius(valueCelsius);
   };
